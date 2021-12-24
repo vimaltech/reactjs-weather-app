@@ -8,7 +8,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts buildl"
+    "build": "react-scripts build"
   },
   "author": "Vimal Raj S",
   "license": "MIT",
