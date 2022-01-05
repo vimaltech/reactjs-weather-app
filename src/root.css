@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-primary {
+    @apply py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75;
+  }
+}
+
+input:checked ~ .dot {
+  transform: translateX(100%);
+  background-color: #48bb78;
+}
+
+/* Toggle B */
+input:checked ~ .dot {
+  transform: translateX(100%);
+  background-color: #48bb78;
+} 
